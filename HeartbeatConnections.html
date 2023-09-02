@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heartbeat Connections</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+<style>
+    /* CSS Reset  */
+    .container h1{
+        font-family: Times, serif;
+        font-size: 30px;
+        color: rgb(236, 7, 164);
+    }
+    body {
+        font-family: 'Cuprum', sans-serif;
+
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url(img/couple-4453726.jpg);
+        /* opacity: 0.5; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        /* height: 4444px; */
+
+        /* background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; */
+    }
+
+    .left{
+        /* text-decoration: ; */
+        display: inline-block;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        font-size: 25px;
+        opacity: 1;
+        color: papayawhip;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        /* border: 2px solid rgb(243, 10, 142); */
+
+    }
+
+    .mid {
+        display: block;
+        width: 47%;
+        margin: 29px auto;
+        /* border: 2px solid rgb(9, 4, 4); */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+        /* background: transparent; */
+        opacity: 0.7;
+        /* border: 2px solid rgb(10, 243, 103); */
+
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: azure;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: greenyellow;
+    }
+
+    /* .left img{
+        width: 40px ;
+        height: 30px; */
+
+
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 26px;
+        line-height: 19px;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: rgb(15, 10, 1);
+        color: white;
+        padding: 4px 4px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: grey;
+
+    }
+
+    .container {
+        /* border: 2px solid black; */
+        margin: 64px 20px;
+        padding: 75px;
+        width: 21%;
+        border-radius: 8px;
+
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 9px;
+        border: 2px solid rgb(115, 7, 7);
+        font-size: 20px;
+        border-radius: 8px;
+        margin: 11px auto;
+    }
+
+    .container h1 {
+        text-align: center;
+        
+
+    }
+
+    .container button {
+        background: transparent;
+        display: block;
+        width: 50%;
+        margin: 16px auto;
+    }
+    .form-group input{
+        opacity: 0.3;
+        text-decoration-color: hsl(240, 37%, 64%);
+    }
+    .header h1{
+        font-family: 'Cedarville Cursive', cursive ;
+        font-weight: 100;
+        
+    }
+    .footer {
+  position: fixed;
+  left: 10px;
+  bottom: 0;
+  width: 100%;
+  /* background-color: red; */
+  color: white;
+  text-align: left;
+}
+</style>
+
+<body>
+    <header class="header">
+        <h1 class="footer">Connecting Hearts Worldwide</h1>
+
+        <!-- left box for logo
+         -->
+        <div class="left">
+            <!-- <img src="img/logo.jp" alt=""> -->
+            <div class="title">💞Heartbeat Connections</div>
+
+        </div>
+
+        <!-- mid box for navbar -->
+
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="#">About Us</a></li>
+                <li> <a href="#">Join Us</a></li>
+                <li> <a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Sign In</button>
+            <!-- <button class="btn">Email Us</button> -->
+
+        </div>
+    </header>
+    <div style="float: right;" class="container">
+        <h1>Join the best dating site</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your qualification">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your religion">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Create your password ">
+            </div>
+            <button class="btn">Sign Up</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
